@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px double #88F2F2;
+    margin: auto;
+    background-color: #F2F2F2;
+ }
+
+ .main-container h1{
+    color: #8BCAD9;
+    font: bold;
+    font-size: 30px;
+ }
+
+ .main-container p{
+    color: #D96A9E;
+    font: italic;
+ }
+
+button{
+    border: 2px dotted #D96A9E;
+    border-radius: 7px;
+    background-color:#F2C9E4; 
+    color: #D96A9E;
+    text-align: center;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #D96A9E;
+}
+
+input::placeholder{
+    color: #8BCAD9;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #D96A9E;
+    padding: 2px;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: #88F2F2;
+}
